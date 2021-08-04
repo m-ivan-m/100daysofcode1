@@ -1,0 +1,52 @@
+/* NAV BAR */
+nav {
+    margin: 30px auto;
+    background-color: black;
+    color: white;
+    width: 90%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* MAIN */
+#container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+/* Div 1 */
+#biblioteca {
+    flex: auto;
+    border: 1px solid black;
+    padding: 1px;
+}
+
+/* Sub divs */
+.estante {
+    border-bottom: 1px solid black;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20px, 40px));
+    grid-auto-rows: minmax(100px, 1fr);
+    gap: 1px;
+    justify-content: space-evenly;
+}
+
+.libro {
+    max-height: 10em;
+    writing-mode: vertical-rl; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*Limitar expansion -- SOLUCION provisoria*/
+    border: 0.5px solid black;
+    margin: 0.5px;
+    align-items: center;
+}
