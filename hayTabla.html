@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probando Flex-grid</title>
+    <link rel="stylesheet" href="flex-grid.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="indice.html" class="item-lista">Indice</a></li>
+            <li><a href="referencia.html" class="item-lista">Referencia</a></li>
+            <li><a href="clasificacion.html" class="item-lista">Clasificacion</a></li>
+            <li><a href="diseña.html" class="item-lista">Diseña tu biblio</a></li>
+            <li><a href="faq.html" class="item-lista">FAQ</a></li>
+        </ul>
+        <form action="">
+            <div>
+                <span class="material-icons" id="lupa-buscador">search</span>
+                <div><input type="search" placeholder="..." id="input-texto" name="input"></div>
+            </div>
+            <input type="submit" value="Buscar" id="input-boton" name="input">
+        </form>
+    </nav>
+
+    <div><!--musica--></div>
+
+    <main id="container">
+        <button id="arrow-left"><span class="material-icons">chevron_left</span></button>
+        <div id="biblioteca">
+            <div class="estante">
+                <div class="libro">Despues de la muerte</div>
+                <div class="libro">Cascada de petalos</div>
+                <div class="libro">Boston clock</div>
+                <div class="libro">Antes de la vida</div>
+            </div>
+            <div class="estante">
+                <div class="libro">e</div>
+                <div class="libro">f</div>
+                <div class="libro">g</div>
+                <div class="libro">h</div>
+            </div>
+            <div class="estante">
+                <div class="libro">i</div>
+                <div class="libro">j</div>
+                <div class="libro">k</div>
+                <div class="libro">l</div>
+            </div>
+            <div class="estante">
+                <div class="libro">m</div>
+                <div class="libro">n</div>
+                <div class="libro">ñ</div>
+                <div class="libro">o</div>
+            </div>
+            <div class="estante">
+                <div class="libro">p</div>
+                <div class="libro">q</div>
+                <div class="libro">r</div>
+                <div class="libro">s</div>
+            </div>
+            <div class="estante">
+                <div class="libro">t</div>
+                <div class="libro">u</div>
+                <div class="libro">v</div>
+                <div class="libro">w</div>
+                <div class="libro">x</div>
+                <div class="libro">y</div>
+                <div class="libro">z</div>
+            </div>
+        </div>
+        <button id="arrow-right"><span class="material-icons">chevron_right</span>
+        </button>
+        <div id="multi-col"> <!-- Noticias actuales? -->
+            <div class="columns" id="column-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi architecto voluptatibus quod itaque tempora vitae odit non incidunt optio possimus vero perspiciatis totam, debitis facere ad corrupti provident eos. Rem?</div>
+            <div class="columns">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis maxime itaque magni eligendi in quia obcaecati quibusdam consectetur tempore praesentium amet, cum sapiente. Tenetur temporibus reiciendis minus rerum accusantium.</div>
+            <div class="columns">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero unde exercitationem eos quis cupiditate quaerat dolorem distinctio maiores, provident nulla dolores quisquam iste optio, fugiat nesciunt. Similique facilis quos voluptate!</div>
+            <div class="columns">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus hic non dignissimos nostrum nihil reiciendis! A cupiditate quas rem eos, harum laborum dolores quidem tenetur modi esse molestiae, laudantium iusto!</div>
+        </div>
+
+        <!--Columna texto costado biblio, opcion izq/der-->
+
+        <table id="tabla">
+            <caption id="caption-tabla">Soy un caption</caption>
+            <thead id="head-tabla">
+                <tr>
+                    <td>Aca</td>
+                    <td>va</td>
+                    <td>info</td>
+                    <td>random</td>
+                </tr>
+            </thead>
+            <tfoot id="foot-tabla">
+                <tr>
+                    <td>O</td>
+                    <td>algo</td>
+                    <td>mas</td>
+                    <td>concreto?</td>
+                </tr>
+            </tfoot>
+            <tbody id="body-tabla">
+                <tr>
+                    <td>Hay que</td>
+                    <td>pensar que</td>
+                    <td>puede ir</td>
+                    <td>en esta tabla</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    
+    <footer id="footer">
+        <ul id="list-footer">
+            <li><a href="" target="_blank" class="link-footer"><img src="facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" class="link-footer"><img src="instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://twitter.com/" target="_blank" class="link-footer"><img src="twitter.png" alt="Twitter"></a></li>
+            <li><a href="https://github.com/" target="_blank" class="link-footer"><img src="github.png" alt="Github"></a></li>
+            
+            <li><a href="https://www.linkedin.com/" target="_blank" class="link-footer"><img src="linkedin.png" alt="Linkedin"></a></li>
+            
+            <li><a href="https://www.freecodecamp.org/" target="_blank" class="link-footer"><img src="freeCodeCamp.png" alt="freeCodeCamp"></a></li>
+        </ul>
+    </footer>
+
+    
+</body>
+</html>
